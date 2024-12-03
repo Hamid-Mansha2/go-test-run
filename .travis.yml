@@ -1,0 +1,10 @@
+language: go
+go: "1.23.3"
+
+matrix:
+  include:
+    - os: linux
+    - os: windows
+
+script:
+  - echo "Running build step"
