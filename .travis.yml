@@ -7,4 +7,4 @@ matrix:
     - os: windows
 
 script:
-  - echo "Running build step"
+  - echo "Running build step."
